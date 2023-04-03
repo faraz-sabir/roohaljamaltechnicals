@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+nav .icons .fb {
+    color: #405DE6;
+}
+
+.whatapp {
+    color: #24CC63;
+}
+
+footer {
+    background-color: #333399;
+}
+
+.fwrapper {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 30px;
+    color: #fff;
+    gap: 40px;
+    width: 100%;
+}
+
+.fwrapper h2 {
+    text-transform: uppercase;
+
+}
+
+.fwrapper .icons a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+footer .icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contact p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+.location p {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.5rem;
+}
+
+.fvision p {
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.location a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+
+.mobile-navbar {
+    width: 200px;
+    color: #fff;
+    background-color: #333399;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    left: -70px;
+    top: 50px;
+    height: calc(100vh - 151px);
+}
+
+
+.mobile-navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.active {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .icons {
+        display: none;
+    }
+
+    .active {
+        display: active;
+    }
+
+    .block {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .open {
+        position: absolute;
+        right: 25px;
+        cursor: pointer;
+    }
+
+    .close {
+        position: absolute;
+        right: 25px;
+        cursor: pointer;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    footer p {
+        margin-top: 20px;
+    }
+
+    footer .icons {
+        margin-top: 20px;
+    }
+}
+
+#google_translate_element select {
+    background: #f6edfd;
+    color: #383ffa;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 8px
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+#goog-gt-tt,
+.goog-te-balloon-frame {
+    display: none !important;
+}
+
+.goog-text-highlight {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: #333399;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.tleft,
+.tright {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 30px;
+}
+
+.logobar {
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cinfo {
+    display: flex;
+    gap: 30px;
+}
+
+.emailinfo,
+.callinfo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.emailinfo span,
+.callinfo span {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.navbar {
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    background-color: #333399;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 85px;
+    height: 85px;
+}

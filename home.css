@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.slideshow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    position: absolute;
+    color: #291E35;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 800;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.heading p {
+    text-align: center;
+    font-weight: 400;
+}
+
+.cname {
+    margin: 15px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: #291E35;
+    padding: 10px;
+    background-color: #405DE6;
+    color: #fff;
+    letter-spacing: 2px;
+
+}
+
+.company {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.company h1 {
+    text-align: center;
+    margin-top: 25px;
+    border-bottom: 2px solid gray;
+}
+
+.company p {
+    margin-top: 25px;
+    letter-spacing: 1.5px;
+    line-height: 1.5rem;
+}
+
+
+.ourQualities {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.ourQualities p {
+    text-align: inherit;
+}
+
+
+.whatappbtn {
+    position: fixed;
+    top: 300px;
+    right: 10px;
+    background: white;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+
+.bestPrice img,
+.expert img,
+.sameDayService img {
+    max-height: 200px;
+}
+
+.bestPrice,
+.expert,
+.sameDayService {
+    border: 1px solid white;
+    border-radius: 22px;
+    box-shadow: 0px 0px 10px #a5a5a5;
+    height: 100%;
+}
+
+.fade:not(.show) {
+    opacity: 1 !important;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.cinfo p {
+    font-size: 13px;
+}
+
+@media screen and (max-width:640px) {
+    .cinfo {
+        flex-direction: column;
+        gap: 5px !important;
+    }
+}
